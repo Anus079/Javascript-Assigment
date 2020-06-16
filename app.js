@@ -138,19 +138,83 @@
 
 // Serial # 3..
 
-// var name = "<h1>Rules for naming JS Variables</h1>"
-// var legal = "vaiable name can only contain,Numbers,$,_,javascript keywordlike user alert, and capital words like Pakistan canbe variable"
+// var a = "<h1>Rules for naming JS Variables</h1> <br>"
+// var b = "vaiable name can only contain,Numbers,$,_,javascript keywordlike user alert, and capital words like Pakistan for example <b>$name,_name or name</b> <br>"
+// var c = " Variable must begin with a letter,$ or _.  <b>For Example:$name,_name or name</b> <br>";
+// var d = "variable names are case sensitive <br>";
+// var e = "variable names should not be JS<br>"
 
-
-
+// document.write( a + b + c + d +e )
 
 
 // .. Chapter #5....
+
+// Serial # 1...
+
+//  var a = 3;
+//  var b = 5;
+//  var c = a+b;
+//  document.write(c)
+
+
+// Serial # 2
+
+// var a = 3;
+// var b = 5;
+// var c = a + b;
+// document.write(c);
+
+// var a = 3;
+// var b = 5;
+// var c = a - b;
+// document.write(c);
+
+// var a = 3;
+// var b = 5;
+// var c = a * b;
+// document.write(c);
+
+// var a = 3;
+// var b = 5;
+// var c = a / b;
+// document.write(c);
+
+
+
 // Serial # 3..
 
+// (a)..
 // var a = 5;
-// var b = 6;
-// var c = ++;
+// b
+// (b)..
+
+// console.log(b);
+
+// (C)..
+//  var a = 5;
+
+// // (D)..
+// // console.log(a);
+
+// //  (E)..
+
+//  a = a++, ++a;
+
+// // (F)..
+// // console.log(a);
+
+// // (G)..
+
+// a = a+7;
+// console.log(a);
+
+// // (H) (I) (G)..
+// a = a-- ,--a;
+
+// // (k)..
+// a = a%3;
+// console.log(a);
+
 
 // Serial #4
 
@@ -160,6 +224,92 @@
 // alert( c)
 
 //  serial # 5
+
+// var a = 4;
+// var b = 1;
+// ans = 4;
+// document.write(a + " x " +b + " = " + ans + "<br>")
+// document.write(a + " x " +b + " = " + ans*2 + "<br>")
+// document.write(a + " x " +b + " = " + ans*3 + "<br>")
+// document.write(a + " x " +b + " = " + ans*4 + "<br>")
+// document.write(a + " x " +b + " = " + ans*5 + "<br>")
+// document.write(a + " x " +b + " = " + ans*6 + "<br>")
+// document.write(a + " x " +b + " = " + ans*7 + "<br>")
+// document.write(a + " x " +b + " = " + ans*8 + "<br>")
+// document.write(a + " x " +b + " = " + ans*9 + "<br>")
+// document.write(a + " x " +b + " = " + ans*10 + "<br>")
+
+// Serail # 6
+
+// var celsius = 10;
+// var fahrenhit = 100;
+// var convertfahren = ( (fahrenhit-32)*5/9);
+// var convertcelsuis = ((celsius*9/5)+32);
+
+// console.log(convertcelsuis +"C" + " is " + convertfahren + "F")
+
+
+//  Serail # 7...
+
+// var p1 = 650;
+// var p2 = 100;
+// var q1 = 3;
+// var q2 = 7;
+// var charges = 100;
+
+// document.write( "price Of item 1 is " + p1 +"<br>" + "quantity of item 1 is " + q1 +"<br>" + "Price of item 2 is " + p2 + "<br>" +"Quantitiy of item 2 is " + q2 + "<br>" + "Shipping charges " + charges + "<br> <br>" + "<b>total cost of your product is<b> " + ((p1*q1)+(p2*q2)+ (charges)) )      
+
+
+
+// Serial # 8...
+
+//  var total = 980;
+//  var obtained = 804;
+//  var Percentage = obtained/total*100;
+//  document.write("Percentage is " + Percentage)
+
+
+//  serail # 9...
+
+// var dollar =    10;
+// var riyal = 25;
+// var exchangeratedollar = 104.80;
+// var exchangerateriyal = 28;
+
+// document.write( "Total currency in PKR:" + ((dollar*exchangeratedollar)+(riyal*exchangerateriyal)) )
+
+
+// Serial #10 ..
+
+// var a = 5*10/2;
+// alert(a)
+
+// Serail # 11...
+
+//  var c_year = 2016;
+//  var birthyear = 1992;
+//  alert(c_year-birthyear+ " your age is")
+
+//  Serial # 12..
+
+// var radius = 20;
+// var cir = 2*3.142*radius;
+// var area = (10*cir);
+// alert(area)
+
+// Serail # 13..
+
+// var favsnack = "Chcolate chip";
+// var age = 15;
+// var maxage = 65;
+// var perday = 3;
+
+// document.write ( "YOu will need " + (maxage-age)*(perday)  + " " + favsnack +" to last you unitl the ripe old age of " + perday)
+
+
+
+
+
 
 // CHAPTER5 9-11
 
@@ -292,7 +442,7 @@
 // Task # 1 ....
 
     // var Studentsname = [];
-    
+
 //  Task # 2...
 
     // var studentsname = [];
@@ -311,16 +461,16 @@
     // var ans = prompt( "Enter your city");
     //     if ( ans === cityname[0]){
     //         alert(true)
-            
+
     //     }
     //     else if( ans =="" || ans == " "){
     //         alert("Please enter your city")
     //     }
     //     else{
     //         alert(false)
-            
+
     //     }
-        
+
 // Task # 6..
 
     // var array = ["Anas","zahid",1,2,3,];
@@ -329,7 +479,7 @@
 
     // var qualification = ["1) SSC" + " 2) HSC" + " 3) BSC" + " 4) BS" + " 5) BCOM" +  "6) MS" + " 7) M.PHIL." + " 8) PhD"];
     // document.write(qualification)
-    
+
 //  Task # 8 ... 
 
 
@@ -337,7 +487,7 @@
         // var Score = [320,230,480];
         // var totalmarks = [500,500,500];
         // alert("Score of " + studentsname[1] + " is " + Score[1] + "." + "Percentage" + ":" + " " + Score[1]/totalmarks[1]*100 + "%" )
-        
+
 
 
 
@@ -350,50 +500,50 @@
         // document.write(colornames)
 
         // Task # (B)
-        
+
         // var colornames = ["orange","red","pink"];
         // colornames.push(prompt("what color do you want"))
         // document.write(colornames)
-        
-        
+
+
         // Task # (C)
-        
+
         // var colornames = ["orange","red","pink"];
         // colornames.unshift(prompt("Enrer your first color"));
         // colornames.unshift(prompt("Enrer your second color "));
         // document.write(colornames)
-        
-        
+
+
         // Task # (D)
-        
+
         // var colornames = ["orange","red","pink"];
         // colornames.shift()
         // document.write(colornames)
-        
-        
+
+
         // Task # (E)
-        
+
         // var colornames = ["orange","red","pink"];
         // colornames.pop()
         // document.write(colornames)
-        
-        
+
+
         // Task # (F)
-        
-        
+
+
         // var colornames = ["orange","red","pink","yellow","blue"];
         // colornames.splice(prompt("Which index do you want add a Color") ,0 ,prompt("which color do you want add"));
         // document.write(colornames)
-        
-        
-        
+
+
+
         // T ask # (G)
-        
-        
+
+
         // var colornames = ["orange","red","pink","yellow","blue"];
         // colornames.splice( prompt("Which index do you want delete a Color"), prompt("How many colors you want to delete"));
         // document.write(colornames)
-        
+
 
 
 //  ...Task # 10
@@ -421,8 +571,8 @@
     // var storevalues = ["Keyboard","mouse","printer","monitor"];
     // var fifo = storevalues;
     // console.log(storevalues)
-   
-    
+
+
 // Task #14...
 
     // var storevalues = ["Keyboard","mouse","printer","monitor"];
