@@ -307,11 +307,107 @@
 // document.write ( "YOu will need " + (maxage-age)*(perday)  + " " + favsnack +" to last you unitl the ripe old age of " + perday)
 
 
+        //  Chapter 6-9...
+
+// Serial # 1 (a)..
+
+// var a = 10;
+// document.write("The value of a is " + a)
+
+// Serial # 1 (b)...
+
+// var a =10;
+// a  = ++a;
+// // document.write(a)
+
+// // serial # 1 (c)...
+
+// a = ++a;
+// // document.write(a)
+
+
+// // Serial # 1 (D)..
+
+// a = --a;
+// // document.write(a);
+
+// // Serial # 1 (E)..
+
+// a = --a;
+// document.write(a)
+
+
+// Serial # 2..
+
+// var a = 2;
+// var b = 1;
+// // var result = --a - --b + ++b + b--
+
+// // Explain...
+
+// // --a will be = 1...
+
+// // --a - --b will be = (a: 2-1 = 1 b: 1-1 = 0) (1)ans...
+
+// // --a - --b  +  ++b will be =  (a: 2-1 = 1 b: 1-1 + 1 = 1) (2)ans...
+
+// //  --a - --b + ++b + b-- will be = (a : 2-1 = 1 b: 1-1 +1 +1 = 2) = (3 answer) ...
+
+// var resul  = --a - --b + ++b + b--;
+// alert (resul)
+
+
+
+// Serial # 3...
+
+// var username = prompt("Enter your name");
+// alert(" Welcome " + username)
+
+
+// Serial # 5...
+
+//  var table = prompt("Enter Your Number");
+//  for(i = 1 ; i <= 10; i++){
+//      if( table === ""){
+//          for(i =1 ; i <=10; i++){
+//             document.write( 5+0 + " x " + [i] + " = " + " " + 5*[i] + "<br>"  )
+            
+//          } 
+//      }
+//      else{
+
+//          document.write( table + " x " + [i] + " = " + " " + table*[i] + "<br>" )
+//      }
+    
+//  }
+
+
+//  Serial # 6...
+
+//  var subject1 = prompt("Enter your first Subject");
+//  var subject2 = prompt("Enter your Second Subject");
+//  var subject3 = prompt("Enter your Third Subject");
+//  var totalmarks = 100;
+//  var marks1 = prompt("Enter your obtained marks of first subject")
+//  var marks2 = prompt("Enter your obtained marks of Second subject")
+//  var marks3 = prompt("Enter your obtained marks of Third subject")
+
+//  document.write( " Subjet " + " Total marks " + " Obtained marks " + " Perecentage " + "<br> <br>")
+//  document.write( subject1 + totalmarks + " " + marks1 + "    " + marks1/totalmarks*100 +"%" + "<br>")
+//  document.write( subject2 + totalmarks+ " " + marks2 + "    " + marks2/totalmarks*100 + "%"+ "<br>")
+//  document.write( subject3 + totalmarks+ " " + marks3 + "    " + marks3/totalmarks*100 + "%" + "<br>")
 
 
 
 
-// CHAPTER5 9-11
+            // CHAPTER5 9-11
+
+//  Serial # 1...
+
+//  var cityname = prompt("Enter your City name");
+//  if ( cityname === "karachi"){
+//      alert ("Welcome to city of lights")
+//  }
 
 //  Serial # 2
 
@@ -324,6 +420,120 @@
 //  if (gender === "female") {
 //     alert("Good morning Mamm!");
 //     }
+
+//  Serial # 3...
+
+// var color = prompt(" Enter traffic color name");
+// if(color === "Red" || color === "red"){
+//     alert("Must Stop")
+// }
+// else if(color === "Yellow" || color === "yellow"){
+//     alert("Ready to move")
+// }
+// else if (color === "Green" || color === "green"){
+//     alert("Move now")
+// }
+
+
+//  Serial # 4
+
+//  var fuel = prompt( " Enter your remaining fuel liter")
+//  if(fuel <= 0.25 ){ 
+//      alert ( "Please refill the fuel in your car")
+//   }
+
+
+//  Serial # 5...
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true"); //output is =5
+// }
+
+//  var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true"); // out put is = 83
+// }
+
+
+
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");   //Out put is = 12
+// }
+
+// if (c === 13){
+// alert("condition 2 is true"); //Out put is = 12
+// }
+
+// if (++c < 14){
+// alert("condition 3 is true"); //Output is = 13
+// }
+
+
+// if(c === 14){
+// alert("condition 4 is true");   //Output is = 13
+// }
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;       // output is = 4000
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//  if (true){                 
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+
+
+// Serial # 6...
+
+
+
+//  var marks1 = prompt("Enter your first Subject marks", "0");
+//  var marks2 = prompt("Enter your Second Subject Marks","0");
+//  var marks3 = prompt("Enter your Third Subject marks","0");
+//  var totalsubjectmjarks = (+marks1 + +marks2 + +marks3);
+//   var totalmarks = 300;
+//   var grade =  totalsubjectmjarks/totalmarks*100 ;
+//   alert (grade)
+
+//  if( grade  < 80 ){
+//     alert("A-one")
+    
+//  }
+
+//  else if( grade < 70 ){
+//      alert("A")
+     
+//  }
+
+// else if( grade < 60 ){
+//      alert("B")
+    
+//     }
+// else if( grade < 59 ){
+        
+//         alert("Fail")
+        
+//  }
+//     // document.write( "<h1> Marksheet</h1> <br><br><br>")
+    // document.write( " Total marks " + totalmarks + "<br>")
+    // document.write( " Marks Obtained " + totalsubjectmjarks + "<br>")
+    // document.write( " Percentage " + totalmarks/totalsubjectmjarks*100 + "<br>")
+    // document.write(  " Grade " + totalmarks + "<br>")
+
+
+//  document.write( " Subjet " + " Total marks " + " Obtained marks " + " Perecentage " + "<br> <br>")
+//  document.write( subject1 + totalmarks + " " + marks1 + "    " + marks1/totalmarks*100 +"%" + "<br>")
+//  document.write( subject2 + totalmarks+ " " + marks2 + "    " + marks2/totalmarks*100 + "%"+ "<br>")
+//  document
+
+
+
 
 //  Chapter 12-13 !
 
@@ -588,9 +798,6 @@
 
 // Chapter 17-20
 
-// serial # 3 
-
-// sah
-
+// serial # 3
 
 
